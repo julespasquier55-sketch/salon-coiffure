@@ -1,10 +1,12 @@
 import { Routes, Route } from 'react-router-dom';
 import Layout from './components/common/layout';
-import Home from './pages/home'; // Changé ici
+import Home from "./pages/Home";       // Vérifie la casse exacte
+import Accueil from "./pages/Accueil"; // idem
 import Prestations from './pages/Prestations';
 import Produits from './pages/Produits';
 import Galerie from './pages/Galerie';
 import Contact from './pages/Contact';
+
 
 function App() {
   return (
