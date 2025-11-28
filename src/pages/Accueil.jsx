@@ -1,9 +1,21 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import { createPageUrl } from "@/utils";
-import { Button } from "@/components/ui/button";
-import { ArrowRight, Star, Users, Award, Clock } from "lucide-react";
-import { motion } from "framer-motion";
+import HeroSection from "@/components/sections/hero";
+import ServicesSection from "@/components/sections/services";
+import StatsSection from "@/components/sections/stats";
+import TestimonialsSection from "@/components/sections/testimonials";
+import CTASection from "@/components/sections/cta";
+
+export default function Accueil() {
+  return (
+    <div className="overflow-hidden">
+      <HeroSection />
+      <StatsSection />
+      <ServicesSection />
+      <TestimonialsSection />
+      <CTASection />
+    </div>
+  );
+}
 
 export default function Accueil() {
   const services = [
